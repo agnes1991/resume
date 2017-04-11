@@ -1,0 +1,201 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[orange]{classic}                % idem
+\usepackage{xunicode, xltxtra}
+\XeTeXlinebreaklocale "zh"
+\widowpenalty=10000
+
+%\setmainfont[Mapping=tex-text]{微软雅黑}
+%\setmainfont[Mapping=tex-text]{文泉驿正黑}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+% \setmainfont[Mapping=tex-text]{微软雅黑}
+% \setsansfont[Mapping=tex-text]{微软雅黑}
+\setmainfont[Mapping=tex-text]{Hiragino Sans GB}
+\setsansfont[Mapping=tex-text]{Hiragino Sans GB}
+\CJKtilde
+
+% personal data
+
+%% start of file `template-zh.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% 个人信息
+\firstname{黄}
+\familyname{瑞}
+\title{个人简历}                      % 可选项、如不需要可删除本行
+\address{荆门市}{438300 湖北}             % 可选项、如不需要可删除本行
+\mobile{+86~18627162435}                         % 可选项、如不需要可删除本行
+%\phone{+2~(345)~678~901}                          % 可选项、如不需要可删除本行
+%\fax{+3~(456)~789~012}                            % 可选项、如不需要可删除本行
+\email{rui\_huang@outlook.com}                    % 可选项、如不需要可删除本行
+% \homepage{duguying.net}                  % 可选项、如不需要可删除本行
+\extrainfo{23岁、女}                  % 可选项、如不需要可删除本行
+% \photo[64pt]{avatar.jpg}                  % ‘64pt’是图片必须压缩至的高度、‘0.4pt‘是图片边框的宽度 (如不需要可调节至0pt)、’picture‘ 是图片文件的名字;可选项、如不需要可删除本行
+%\quote{引言(可选项)}                           % 可选项、如不需要可删除本行
+
+% 显示索引号;仅用于在简历中使用了引言
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% 分类索引
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            内容
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{教育背景}
+\cventry{2010 -- 2014}{本科}{长江大学}{计算机科学与技术学院}{计算机科学与技术专业}{}  % 第3到第6编码可留白
+
+%\section{毕业论文}
+%\cvitem{题目}{\emph{题目}}
+%\cvitem{导师}{导师}
+%\cvitem{说明}{\small 论文简介}
+
+% \section{求职意向}
+% \cvitem{工作性质}{全职}
+% \cvitem{期望职业}{软件测试}
+% \cvitem{期望行业}{IT服务(系统/数据/维护)}
+% \cvitem{工作地区}{深圳}
+% \cvitem{期望月薪}{8001-10000元/月}
+% \cvitem{目前状况}{我目前在职，正考虑换个新环境（如有合适的工作机会，到岗时间一个月左右）}
+
+\section{工作经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\cventry{2016/03\\至今}
+{开源中国众包产品}{}{}{}
+{责任描述：开源中国众包产品测试工作：\\
+1. 模块功能测试。基础功能测试\\
+2. 安全测试。XSS、CSRF、权限等安全测试\\
+3. 自动化测试。编写自动化测试用例\\
+4. 编写测试文档、用户文档等
+}
+
+\cventry{2015/06\\至\\2016/01}
+{eSupplier供应商协调系统}{}{}{}
+{责任描述：eSupplier项目采用敏捷模式开发，2周一个迭代，每2个月交付一次版本。在项目中负责系统主流程中的验收模块以及终端模块的测试工作：\\
+1. 与需求分析人员沟通需求\\
+2. 编写测试用例\\
+3. 根据用例实施测试。包含功能测试、易用性测试机兼容性测试\\
+4. 协助测试团队其他成员进行测试工作\\
+5. 输出测试报告\\
+6. 编写编写所负责模块的集成测试文档、业务梳理文档、用户手册等文档
+}
+
+% \cvlistitem{编写编写所负责模块的集成测试文档、业务梳理文档、用户手册等文档}
+
+\cventry{2014/12\\至\\2015/05}
+{Cookies取信系统}
+{}
+{}{}
+{软件环境：Tomcat、Java、Apache\\
+硬件环境：服务器、客户端\\
+开发工具：Visual Studio，MySQL\\
+责任描述：负责项目系统测试，系统稳定编写，测试文档编写等工作
+}
+
+\cventry{2014/07\\至\\2015/05}
+{邮件综合管理平台}
+{}
+{}{}
+{软件环境：Tomcat、Java、Apache、SQL Server\\
+硬件环境：服务器、客户端\\
+开发工具：Visual Studio\\
+责任描述：负责项目系统测试，测试全部文档编写，系统部分文档编写，系统版本发布管理，测试服务器管理，系统运行维护等工作。
+}
+
+\cventry{2013/11\\至\\2014/05}
+{中国石化基础设施云}
+{}
+{}{}
+{责任描述：负责项目测试。系统测试计划、测试用例编写，系统初步测试，bug汇报反馈等。协助建设资源池机房，安装服务器系统、配置服务器磁盘阵列\\
+项目简介：中国石化未来的基础设施建设需要实现统一建设、统一管理、资源整合、自动化运维、灵活调整资源等，提高基础设施整体的可用性、利用率。因此使用虚拟化技术（Hyper-v）与System Center 2012 SP1产品相结合的部署架构实现对基础设施建设提供有效的解决方案。}
+
+\cventry{2013/04\\至\\2014/04}
+{中国石化统一通讯系统}
+{}
+{}{}
+{责任描述：负责系统的测试工作。主要负责黑盒测试，从输入/输出的数据对系统是否出现不该存在的问题进行判断；兼容性测试，分别将项目部署在多个不同的系统环境中进行测试，以判断系统在不同环境中运行时是否会出现异常；回归测试，当需要发布新的系统版本是对系统进行回归测试；性能测试，使用工具对系统进行检测，以判断是否能在20w用户的使用下正常工作\\
+项目简介：中国石化统一通讯系统是以Lync2010为基础，构建中国石化的统一通讯平台，实现可集中管控的沟通服务资源，满足通讯自身的灵活性、集成性、统一性。统一通讯系统功能包括用户功能、管理功能以及集成功能。用户功能包括即使消息、语音、视频、网络会议、应用扩展、企业通讯录、群组等功能，提高用户沟通的效率，由基于Lync标准客户端的开发来实现。
+}
+
+\section{校园经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\cventry{2011–2012}
+{长江大学计算机协会}
+{}
+{}{}
+{担任协会总会长。负责协会全部事物，包括会员招纳，会员活动组织 ，协会理事会管理等工作。期间获得社团优秀干部、先进个人等称号。}
+
+\cventry{2011–2012}
+{长江大学计算机学院学生会}
+{}
+{}{}
+{担任生活部部长，协助学院辅导员进行学院学生的各项考勤及安全事务管理。期间获得五四表彰“优秀团干”称号。}
+
+\cventry{2011–2012}
+{长江大学计算机科学学院辅导员助理}
+{}
+{}{}
+{协助院辅导员处理各项学生事务。}
+
+
+
+\section{专业技能}
+\cvlistitem{功能测试、易用性测试、兼容性测试、自动化测试、安全测试}
+\cvlistitem{掌握Python+Selenium自动化测试用例输出}
+\cvlistitem{熟练编写测试用例、测试报告等文档}
+\cvlistitem{掌握Markdown语法}
+\cvlistitem{掌握Git}
+\cvlistitem{熟练使用TFS、TMSS、SVN等工具}
+\cvlistitem{用户培训，可以为用户进行不同程度的系统培训}
+
+\section{个人技能}
+\cvline{语言技能}{英语\textbf{CET-6}，能够熟练阅读并书写文档，并可以与人进行交流}
+\cvline{其他技能}{羽毛球}
+
+
+\section{自我评价}
+\cvitem{}{工作态度认真负责,会认真完成自己的工作，并努力将工作做到更好。沟通能力强，与同事或客户之间可以流畅的沟通，并且具备英文交谈能力。学习能力和理解能力强，可以很快的接受并学会新的事物或技能。抗压能力强，可以适应高强度的工作节奏。思维清晰逻辑连贯，细致认真，懂得反省自身存在的问题并努力加以改进，是我最大的优点。}
+
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+% 来自BibTeX文件但不使用multibib包的出版物
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% BibTeX的数字标签
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                    % 'publications' 是BibTeX文件的文件名
+
+% 来自BibTeX文件并使用multibib包的出版物
+%\section{出版物}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}               % 'publications' 是BibTeX文件的文件名
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}               % 'publications' 是BibTeX文件的文件名
+
+\end{document}
+
+
+%% 文件结尾 `template-zh.tex'.
